@@ -1,0 +1,135 @@
+/* =====================================================
+   Icon Animations
+   ===================================================== */
+
+/* Pulse animation for check icons */
+@keyframes pulse-icon {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+/* Bounce animation */
+@keyframes bounce-icon {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Rotate animation */
+@keyframes rotate-icon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Shake animation */
+@keyframes shake-icon {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-3px);
+    }
+
+    75% {
+        transform: translateX(3px);
+    }
+}
+
+/* Apply animations to specific icon types */
+.about-feature i,
+.mini-card-list i {
+    animation: pulse-icon 2s ease-in-out infinite;
+}
+
+.stat-icon i {
+    animation: bounce-icon 3s ease-in-out infinite;
+}
+
+.feature-icon i {
+    transition: var(--transition);
+}
+
+.feature-card:hover .feature-icon i {
+    animation: rotate-icon 0.6s ease-in-out;
+}
+
+.product-icon i {
+    transition: var(--transition);
+}
+
+.product-card:hover .product-icon i {
+    animation: shake-icon 0.5s ease-in-out;
+}
+
+.client-icon i {
+    animation: bounce-icon 4s ease-in-out infinite;
+}
+
+.method-icon i,
+.contact-method i {
+    transition: var(--transition);
+}
+
+.contact-method:hover .method-icon i {
+    animation: shake-icon 0.5s ease-in-out;
+}
+
+/* Hero badge icon */
+.hero-badge i {
+    animation: pulse-icon 2s ease-in-out infinite;
+}
+
+/* Navigation phone icon */
+.nav-phone i {
+    animation: shake-icon 3s ease-in-out infinite;
+}
+
+/* WhatsApp float button */
+.whatsapp-float i {
+    animation: pulse-icon 1.5s ease-in-out infinite;
+}
+
+/* Form title icon */
+.form-title i {
+    animation: bounce-icon 2s ease-in-out infinite;
+}
+
+/* Back to top icon */
+.back-to-top i {
+    transition: var(--transition);
+}
+
+.back-to-top:hover i {
+    animation: bounce-icon 0.6s ease-in-out;
+}
+
+/* Mini card icon enhanced animation */
+.mini-card-icon i {
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.mini-card:hover .mini-card-icon i {
+    animation: rotate-icon 0.8s ease-in-out;
+}

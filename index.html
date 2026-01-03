@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="إسناد المركبات - شريككم الموثوق في قطع غيار السيارات الأمريكية عالية الجودة في المملكة العربية السعودية">
+    <meta name="keywords" content="قطع غيار سيارات, سيارات امريكية, رديتر, فرامل, تعليق, الرياض, السعودية">
+    <title>إسناد المركبات | قطع غيار السيارات الأمريكية</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <span class="loader-text">إسناد المركبات</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo2.png" alt="Esnad Motors Logo" class="nav-logo-img">
+                <div class="nav-logo-text">
+                    <span class="logo-main">إسناد المركبات</span>
+                    <span class="logo-sub">ESNAD MOTORS</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">من نحن</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">مميزاتنا</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link">منتجاتنا</a></li>
+                <li class="nav-item"><a href="#brands" class="nav-link">الوكالات</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">تواصل معنا</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="tel:+966553159705" class="nav-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>966553159705+</span>
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div class="nav-backdrop" id="nav-backdrop"></div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <img src="images/hero-bg.png" alt="خلفية قطع غيار السيارات">
+                <div class="hero-overlay"></div>
+            </div>
+
+            <div class="hero-content container">
+                <div class="hero-text">
+                    <span class="hero-badge">
+                        <i class="fas fa-star"></i>
+                        الخيار الأول لقطع الغيار الأمريكية
+                    </span>
+                    <h1 class="hero-title">
+                        قطع غيار أصلية
+                        <span class="text-gradient">لسيارتك الأمريكية</span>
+                    </h1>
+                    <p class="hero-desc">
+                        نوفر لك أفضل قطع الغيار الأصلية والبديلة للسيارات الأمريكية بأسعار تنافسية وضمان حقيقي. خبرة
+                        تمتد لأكثر من 15 عاماً في خدمة عملائنا.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary">
+                            <i class="fas fa-th-large"></i>
+                            تصفح المنتجات
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i>
+                            اطلب عرض سعر
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-form-wrapper">
+                    <div class="hero-form-card">
+                        <h3 class="form-title">
+                            <i class="fas fa-bolt"></i>
+                            طلب سريع
+                        </h3>
+                        <form class="hero-form" id="hero-form">
+                            <div class="form-group">
+                                <input type="text" name="car" placeholder="نوع السيارة والموديل" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="part" placeholder="القطعة المطلوبة" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="رقم الجوال" dir="ltr" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fab fa-whatsapp"></i>
+                                أرسل عبر واتساب
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-count="15">0</span>
+                                <span class="stat-label">سنة خبرة</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-box-open"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-count="50000">0</span>
+                                <span class="stat-label">قطعة متوفرة</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-users"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-count="12000">0</span>
+                                <span class="stat-label">عميل سعيد</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon"><i class="fas fa-handshake"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-count="8">0</span>
+                                <span class="stat-label">وكالة عالمية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="images/car-parts.png" alt="فريق إسناد المركبات">
+                        <div class="about-badge">
+                            <span class="badge-number">15+</span>
+                            <span class="badge-text">سنة من التميز</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-tag">من نحن</span>
+                        <h2 class="section-title">شريكك الموثوق في عالم قطع الغيار</h2>
+                        <p class="about-text">
+                            تأسست إسناد المركبات في الرياض بهدف توفير قطع غيار السيارات الأمريكية بأعلى معايير الجودة.
+                            نمتلك خبرة واسعة في السوق السعودي ونفخر بشراكاتنا مع أكبر العلامات التجارية العالمية.
+                        </p>
+                        <p class="about-text">
+                            نؤمن بأن كل عميل يستحق الأفضل، لذا نحرص على توفير قطع غيار أصلية ومضمونة مع خدمة عملاء
+                            استثنائية وأسعار تنافسية.
+                        </p>
+                        <p class="about-text">
+                            بفضل فريقنا المتخصص من الخبراء والفنيين، نقدم استشارات مهنية لمساعدة عملائنا في اختيار القطع
+                            المناسبة لسياراتهم. كما نوفر خدمة توصيل سريعة وآمنة لجميع مناطق المملكة، مع ضمان شامل على
+                            جميع منتجاتنا.
+                        </p>
+                        <p class="about-text">
+                            نسعى دائماً لتطوير خدماتنا ومواكبة أحدث التقنيات في صناعة قطع الغيار، لنبقى الخيار الأول
+                            والأفضل لعملائنا في جميع أنحاء المملكة العربية السعودية.
+                        </p>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>قطع غيار أصلية 100%</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>ضمان على جميع المنتجات</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>توصيل لجميع مناطق المملكة</span>
+                            </div>
+                            <div class="about-feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>فريق فني متخصص</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision & Mission Section -->
+        <section class="vision-mission" id="vision-mission">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">رؤيتنا ورسالتنا</span>
+                    <h2 class="section-title">نحو مستقبل أفضل</h2>
+                    <p class="section-desc">نسعى لتحقيق التميز في كل ما نقدمه لعملائنا</p>
+                </div>
+                <div class="vision-mission-grid">
+                    <div class="vision-card">
+                        <div class="vision-card-icon"><i class="fas fa-eye"></i></div>
+                        <h3>رؤيتنا</h3>
+                        <p>أن نكون الخيار الأول والأكثر موثوقية في قطع غيار السيارات الأمريكية في المملكة العربية
+                            السعودية والمنطقة، من خلال تقديم منتجات عالية الجودة وخدمات متميزة تلبي وتتجاوز توقعات
+                            عملائنا.</p>
+                        <ul class="vision-card-list">
+                            <li><i class="fas fa-check-circle"></i> الريادة في السوق السعودي</li>
+                            <li><i class="fas fa-check-circle"></i> التوسع الإقليمي المستدام</li>
+                            <li><i class="fas fa-check-circle"></i> الابتكار والتطوير المستمر</li>
+                        </ul>
+                    </div>
+                    <div class="vision-card">
+                        <div class="vision-card-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3>رسالتنا</h3>
+                        <p>توفير قطع غيار أصلية وعالية الجودة للسيارات الأمريكية بأسعار تنافسية وعادلة، مع تقديم خدمة
+                            عملاء استثنائية ودعم فني متخصص لضمان رضا وثقة عملائنا.</p>
+                        <ul class="vision-card-list">
+                            <li><i class="fas fa-check-circle"></i> جودة مضمونة 100%</li>
+                            <li><i class="fas fa-check-circle"></i> أسعار تنافسية وعادلة</li>
+                            <li><i class="fas fa-check-circle"></i> خدمة عملاء متميزة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">لماذا تختارنا</span>
+                    <h2 class="section-title">مميزات تجعلنا الخيار الأفضل</h2>
+                    <p class="section-desc">نقدم لعملائنا تجربة استثنائية تجمع بين الجودة والسعر والخدمة المتميزة</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>خبرة عريقة</h3>
+                        <p>أكثر من 15 عاماً من الخبرة المتخصصة في سوق قطع غيار السيارات الأمريكية.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>جودة مضمونة</h3>
+                        <p>جميع قطع الغيار تخضع لفحوصات دقيقة لضمان أعلى مستويات الأداء والسلامة.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                        <h3>أسعار تنافسية</h3>
+                        <p>نوفر أفضل الأسعار في السوق مع الحفاظ على أعلى معايير الجودة.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3>توصيل سريع</h3>
+                        <p>خدمة توصيل سريعة وآمنة لجميع مناطق المملكة العربية السعودية.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>ضمان شامل</h3>
+                        <p>ضمان حقيقي على جميع المنتجات يحمي حقوقك ويضمن رضاك التام.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>دعم فني</h3>
+                        <p>فريق من الخبراء والفنيين جاهز لمساعدتك في اختيار القطعة المناسبة.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">منتجاتنا</span>
+                    <h2 class="section-title">قطع غيار السيارات الأمريكية</h2>
+                    <p class="section-desc">مجموعة شاملة من قطع الغيار الأصلية والبديلة لجميع السيارات الأمريكية</p>
+                </div>
+
+                <div class="products-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/cooling-system.png" alt="أنظمة التبريد">
+                            <div class="product-overlay">
+                                <a href="#contact" class="btn btn-small">اطلب الآن</a>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-icon"><i class="fas fa-snowflake"></i></div>
+                            <h3>أنظمة التبريد</h3>
+                            <p>رديترات، مراوح، مضخات مياه، ثرموستات وجميع قطع نظام التبريد</p>
+                            <ul class="product-list">
+                                <li><i class="fas fa-check"></i> رديترات أصلية</li>
+                                <li><i class="fas fa-check"></i> مراوح التبريد</li>
+                                <li><i class="fas fa-check"></i> مضخات المياه</li>
+                                <li><i class="fas fa-check"></i> ثرموستات</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/suspension-parts.png" alt="أنظمة التعليق">
+                            <div class="product-overlay">
+                                <a href="#contact" class="btn btn-small">اطلب الآن</a>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-icon"><i class="fas fa-cogs"></i></div>
+                            <h3>أنظمة التعليق</h3>
+                            <p>مساعدات، كبالن، هوبات وجميع قطع نظام التعليق والتوجيه</p>
+                            <ul class="product-list">
+                                <li><i class="fas fa-check"></i> مساعدات أمامية وخلفية</li>
+                                <li><i class="fas fa-check"></i> كبالن ومقصات</li>
+                                <li><i class="fas fa-check"></i> هوبات ورولمان بلي</li>
+                                <li><i class="fas fa-check"></i> جلب وبطانات</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/brake-system.png" alt="أنظمة الفرامل">
+                            <div class="product-overlay">
+                                <a href="#contact" class="btn btn-small">اطلب الآن</a>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-icon"><i class="fas fa-compact-disc"></i></div>
+                            <h3>أنظمة الفرامل</h3>
+                            <p>تيل فرامل، دسكات، سلندرات وجميع قطع نظام الفرامل</p>
+                            <ul class="product-list">
+                                <li><i class="fas fa-check"></i> تيل فرامل سيراميك</li>
+                                <li><i class="fas fa-check"></i> دسكات أمامية وخلفية</li>
+                                <li><i class="fas fa-check"></i> سلندرات الفرامل</li>
+                                <li><i class="fas fa-check"></i> خراطيم الفرامل</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/body-parts.png" alt="قطع الهيكل">
+                            <div class="product-overlay">
+                                <a href="#contact" class="btn btn-small">اطلب الآن</a>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-icon"><i class="fas fa-car"></i></div>
+                            <h3>قطع الهيكل والبودي</h3>
+                            <p>أكصدامات، شبكات، مرايا، إضاءات وقطع الجسم الخارجي</p>
+                            <ul class="product-list">
+                                <li><i class="fas fa-check"></i> أكصدامات أمامية وخلفية</li>
+                                <li><i class="fas fa-check"></i> شبكات وجلاطات</li>
+                                <li><i class="fas fa-check"></i> مرايا جانبية</li>
+                                <li><i class="fas fa-check"></i> فوانيس وإضاءات</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Our Brands -->
+                <div class="our-brands">
+                    <h3 class="brands-subtitle">علاماتنا التجارية الخاصة</h3>
+                    <p class="our-brands-desc">نفخر بتقديم مجموعة من العلامات التجارية الحصرية التي طورناها بخبرتنا
+                        الطويلة لتلبي احتياجات السوق السعودي بجودة عالية وأسعار منافسة</p>
+                    <div class="our-brands-grid">
+                        <div class="our-brand">
+                            <img src="images/our-brand-1.png" alt="SANDEX">
+                            <span>ساندكس</span>
+                        </div>
+                        <div class="our-brand">
+                            <img src="images/our-brand-2.png" alt="ADVANCE">
+                            <span>أدفانس</span>
+                        </div>
+                        <div class="our-brand">
+                            <img src="images/our-brand-3.png" alt="TAIFON">
+                            <span>تايفون</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brands Section -->
+        <section class="brands" id="brands">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">شركاؤنا</span>
+                    <h2 class="section-title">العلامات التجارية العالمية</h2>
+                    <p class="section-desc">نفتخر بشراكتنا مع أفضل العلامات التجارية العالمية في صناعة قطع الغيار</p>
+                </div>
+                <div class="brands-grid">
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/Elgin.png" alt="ELGIN"></div>
+                        <span class="brand-name">ELGIN</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/eagle_eyes.png" alt="EAGLE EYES"></div>
+                        <span class="brand-name">EAGLE EYES</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/tyc.png" alt="TYC"></div>
+                        <span class="brand-name">TYC</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/DEPO.png" alt="DEPO"></div>
+                        <span class="brand-name">DEPO</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/USMW.png" alt="USMW"></div>
+                        <span class="brand-name">USMW</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/holts.png" alt="Holts"></div>
+                        <span class="brand-name">Holts</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/Valeo.png" alt="Valeo"></div>
+                        <span class="brand-name">Valeo</span>
+                    </div>
+                    <div class="brand-card">
+                        <div class="brand-logo"><img src="images/MOOG.png" alt="MOOG"></div>
+                        <span class="brand-name">MOOG</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="clients">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">عملاؤنا</span>
+                    <h2 class="section-title">نخدم جميع القطاعات</h2>
+                    <p class="section-desc">نقدم خدماتنا لمختلف شرائح العملاء في قطاع السيارات</p>
+                </div>
+                <div class="clients-grid">
+                    <div class="client-card">
+                        <div class="client-icon"><i class="fas fa-user"></i></div>
+                        <h3>ملاك السيارات</h3>
+                        <p>قطع غيار أصلية لسيارتك الأمريكية بأفضل الأسعار</p>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-icon"><i class="fas fa-tools"></i></div>
+                        <h3>ورش الصيانة</h3>
+                        <p>شراكات خاصة مع ورش الصيانة والخدمة السريعة</p>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-icon"><i class="fas fa-building"></i></div>
+                        <h3>معارض السيارات</h3>
+                        <p>توريد بالجملة لمعارض السيارات والوكالات</p>
+                    </div>
+                    <div class="client-card">
+                        <div class="client-icon"><i class="fas fa-warehouse"></i></div>
+                        <h3>تجار الجملة</h3>
+                        <p>أسعار خاصة لتجار الجملة والموزعين</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <span class="section-tag">تواصل معنا</span>
+                        <h2 class="section-title">هل تحتاج قطع غيار؟</h2>
+                        <p class="contact-desc">تواصل معنا الآن وسنساعدك في الحصول على ما تحتاجه بأفضل الأسعار</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div class="method-details">
+                                    <h4>اتصل بنا</h4>
+                                    <a href="tel:+966553159705" dir="ltr">+966 553 159 705</a>
+                                    <a href="tel:+966556679912" dir="ltr">+966 556 679 912</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="method-details">
+                                    <h4>البريد الإلكتروني</h4>
+                                    <a href="mailto:Jamaan@esnad-motors.com">Jamaan@esnad-motors.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="method-details">
+                                    <h4>العنوان</h4>
+                                    <p>حي الملز - شارع أيوب بن الوارث<br>مكتب 22 - الرياض 12841<br>المملكة العربية
+                                        السعودية</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/966553159705" target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            تواصل عبر واتساب
+                        </a>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contact-form">
+                            <h3 class="form-heading">أرسل طلبك</h3>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">الاسم الكامل</label>
+                                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">رقم الجوال</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="05xxxxxxxx"
+                                        dir="ltr">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">البريد الإلكتروني</label>
+                                    <input type="email" id="email" name="email" placeholder="example@email.com"
+                                        dir="ltr">
+                                </div>
+                                <div class="form-group">
+                                    <label for="car-type">نوع السيارة</label>
+                                    <input type="text" id="car-type" name="car-type" placeholder="مثال: تاهو 2020">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">تفاصيل الطلب</label>
+                                <textarea id="message" name="message" rows="4" required
+                                    placeholder="اكتب تفاصيل قطع الغيار المطلوبة..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i>
+                                إرسال الطلب
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <img src="images/logo2.png" alt="Esnad Motors Logo" class="footer-logo-img">
+                        <div class="footer-logo-text">
+                            <span class="logo-main">إسناد المركبات</span>
+                            <span class="logo-sub">ESNAD MOTORS</span>
+                        </div>
+                    </a>
+                    <p>شركة رائدة في توفير قطع غيار السيارات الأمريكية عالية الجودة في المملكة العربية السعودية.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/966553159705" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#products">منتجاتنا</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>منتجاتنا</h4>
+                    <ul>
+                        <li><a href="#products">أنظمة التبريد</a></li>
+                        <li><a href="#products">أنظمة التعليق</a></li>
+                        <li><a href="#products">أنظمة الفرامل</a></li>
+                        <li><a href="#products">قطع الهيكل</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i><a href="tel:+966553159705" dir="ltr">+966 553 159 705</a>
+                        </li>
+                        <li><i class="fas fa-envelope"></i><a
+                                href="mailto:Jamaan@esnad-motors.com">Jamaan@esnad-motors.com</a></li>
+                        <li><i class="fas fa-globe"></i><a href="https://www.esnad-motors.com">www.esnad-motors.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-parent">
+                    <span>إحدى شركات</span>
+                    <strong>مجموعة مدخرات للاستثمار</strong>
+                </div>
+                <p>&copy; 2025 إسناد المركبات. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/966553159705" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
